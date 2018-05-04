@@ -1,0 +1,101 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: Raleway;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 80px 30px;
+}
+
+section div {
+	width: 100%;
+	text-align: left;
+	max-width: 900px;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+section h1 {
+	font-size: 2em;
+	color: #666666;
+}
+
+p {
+	max-width: 900px;
+	font-size: 1.2em;
+	line-height: 2;
+}
+
+footer {
+	margin: 0;
+	padding: 50px 20px;
+	display: flex;
+	justify-content: center;
+}
+
+footer p {
+	color : white;
+}
+
+h2 {
+	color: #666666;
+	text-decoration: underline;
+	text-decoration-color: #6699ff;
+}
+
+hr {
+	width: 200px;
+	size: 5px;
+	background-color: #6699ff;
+}
+
+ul {
+	list-style: none;
+	font-size: 1.2em;
+} 
+
+a {
+	color: #ff8533;
+}
+
+.white {
+	background-color: white;
+}
+
+.gray {
+	background-color: #f4f4f4;
+}
+
+.dark {
+	background-color: #333333;
+}
+
+#hero {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Aaron_Swartz_profile.jpg/800px-Aaron_Swartz_profile.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	font-size: 10px;
+	font-weight: 400;
+	letter-spacing: 5px;
+	padding: 0px 20px;
+	line-height: 1.5;
+}
+
+@media screen and (max-width: 400px) {
+	section h1 {
+		font-size: 1.5em;
+	}
+}
